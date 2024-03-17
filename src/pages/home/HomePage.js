@@ -40,98 +40,107 @@ const HomePage = () => {
     <TopNavbar/>
     <div className="header bg-primary pb-6">
       <div className="container-fluid py-4">
-        <div className="header-body">
-          <div className="row">
-            <div className="col-xl-3 col-md-6">
-              <div className="card card-stats">
-        
-                <div className="card-body">
-                  <div className="row">
-                    <div className="col">
-                      <h5 className="card-title text-uppercase text-muted mb-0">إجمالي المهام</h5>
-                      <span className="h2 font-weight-bold mb-0">350,897</span>
-                    </div>
-                    <div className="col-auto">
-                      <div className="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                        <i className="ni ni-active-40"></i>
-                      </div>
-                    </div>
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Money</p>
+                    <h5 class="font-weight-bolder">
+                      $53,000
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-success text-sm font-weight-bolder">+55%</span>
+                      since yesterday
+                    </p>
                   </div>
-                  <p className="mt-3 mb-0 text-sm">
-                    <span className="text-success mr-2"><i className="fa fa-arrow-up"></i> 3.48%</span>
-                    <span className="text-nowrap">Since last month</span>
-                  </p>
                 </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6">
-              <div className="card card-stats">
-              
-                <div className="card-body">
-                  <div className="row">
-                    <div className="col">
-                      <h5 className="card-title text-uppercase text-muted mb-0">مهام لم ترسل</h5>
-                      <span className="h2 font-weight-bold mb-0">2,356</span>
-                    </div>
-                    <div className="col-auto">
-                      <div className="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
-                        <i className="ni ni-chart-pie-35"></i>
-                      </div>
-                    </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-primary shadow-primary text-center rounded-circle">
+                    <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
                   </div>
-                  <p className="mt-3 mb-0 text-sm">
-                    <span className="text-success mr-2"><i className="fa fa-arrow-up"></i> 3.48%</span>
-                    <span className="text-nowrap">Since last month</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6">
-              <div className="card card-stats">
-               
-                <div className="card-body">
-                  <div className="row">
-                    <div className="col">
-                      <h5 className="card-title text-xs text-muted mb-0 ">مهام في انظار القبول او الرفض</h5>
-                      <span className="h2 font-weight-bold mb-0">924</span>
-                    </div>
-                    <div className="col-auto">
-                      <div className="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
-                        <i className="ni ni-money-coins"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="mt-3 mb-0 text-sm">
-                    <span className="text-success mr-2"><i className="fa fa-arrow-up"></i> 3.48%</span>
-                    <span className="text-nowrap">Since last month</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-md-6">
-              <div className="card card-stats">
-       
-                <div className="card-body">
-                  <div className="row">
-                    <div className="col">
-                      <h5 className="card-title text-uppercase text-muted mb-0">المهام المكتمله</h5>
-                      <span className="h2 font-weight-bold mb-0">49,65%</span>
-                    </div>
-                    <div className="col-auto">
-                      <div className="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
-                        <i className="ni ni-chart-bar-32"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="mt-3 mb-0 text-sm">
-                    <span className="text-success mr-2"><i className="fa fa-arrow-up"></i> 3.48%</span>
-                    <span className="text-nowrap">Since last month</span>
-                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Users</p>
+                    <h5 class="font-weight-bolder">
+                      2,300
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-success text-sm font-weight-bolder">+3%</span>
+                      since last week
+                    </p>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-danger shadow-danger text-center rounded-circle">
+                    <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold">New Clients</p>
+                    <h5 class="font-weight-bolder">
+                      +3,462
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-danger text-sm font-weight-bolder">-2%</span>
+                      since last quarter
+                    </p>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-success shadow-success text-center rounded-circle">
+                    <i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Sales</p>
+                    <h5 class="font-weight-bolder">
+                      $103,430
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-success text-sm font-weight-bolder">+5%</span> than last month
+                    </p>
+                  </div>
+                </div>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-warning shadow-warning text-center rounded-circle">
+                    <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
     <div className="container-fluid mt--6">
